@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D93998511943904002C0A96 /* MLAboutPanelController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D93997311943904002C0A96 /* MLAboutPanelController.h */; };
+		4D93998611943904002C0A96 /* MLAboutPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D93997411943904002C0A96 /* MLAboutPanelController.m */; };
+		4D93998711943904002C0A96 /* MLFocusRingScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D93997511943904002C0A96 /* MLFocusRingScrollView.h */; };
+		4D93998811943904002C0A96 /* MLFocusRingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D93997611943904002C0A96 /* MLFocusRingScrollView.m */; };
+		4D93998911943904002C0A96 /* MLIsTextFieldFirstResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D93997711943904002C0A96 /* MLIsTextFieldFirstResponder.h */; };
+		4D93998A11943904002C0A96 /* MLIsTextFieldFirstResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D93997811943904002C0A96 /* MLIsTextFieldFirstResponder.m */; };
+		4D93998B11943904002C0A96 /* MLKBPopUpToolbarItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D93997911943904002C0A96 /* MLKBPopUpToolbarItem.h */; };
+		4D93998C11943904002C0A96 /* MLKBPopUpToolbarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D93997A11943904002C0A96 /* MLKBPopUpToolbarItem.m */; };
+		4D93998D11943904002C0A96 /* MLLogWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D93997B11943904002C0A96 /* MLLogWindowController.h */; };
+		4D93998E11943904002C0A96 /* MLLogWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D93997C11943904002C0A96 /* MLLogWindowController.m */; };
+		4D93998F11943904002C0A96 /* MLMenuSearching.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D93997D11943904002C0A96 /* MLMenuSearching.h */; };
+		4D93999011943904002C0A96 /* MLMenuSearching.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D93997E11943904002C0A96 /* MLMenuSearching.m */; };
+		4D93999111943904002C0A96 /* MLOpenGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D93997F11943904002C0A96 /* MLOpenGLView.h */; };
+		4D93999211943904002C0A96 /* MLOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D93998011943904002C0A96 /* MLOpenGLView.m */; };
+		4D93999311943904002C0A96 /* MLPreferencesPanelController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D93998111943904002C0A96 /* MLPreferencesPanelController.h */; };
+		4D93999411943904002C0A96 /* MLPreferencesPanelController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D93998211943904002C0A96 /* MLPreferencesPanelController.m */; };
+		4D93999511943904002C0A96 /* MLPreferenceViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D93998311943904002C0A96 /* MLPreferenceViewController.h */; };
+		4D93999611943904002C0A96 /* MLPreferenceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D93998411943904002C0A96 /* MLPreferenceViewController.m */; };
+		4DD8377E117328C500A90CDA /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4DD8377D117328C500A90CDA /* LICENSE.txt */; };
+		4DD83783117328CF00A90CDA /* AboutPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD8377F117328CF00A90CDA /* AboutPanel.xib */; };
+		4DD83784117328CF00A90CDA /* PreferencesPanel.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD83781117328CF00A90CDA /* PreferencesPanel.xib */; };
+		4DD8378D117328FB00A90CDA /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DD8378C117328FB00A90CDA /* OpenGL.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C1666FE841158C02AAC07 /* InfoPlist.strings */; };
+		8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0867D69BFE84028FC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		0867D6A5FE840307C02AAC07 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		089C1667FE841158C02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		32DBCF5E0370ADEE00C91783 /* Precompile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Precompile.h; sourceTree = "<group>"; };
+		4D93997311943904002C0A96 /* MLAboutPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLAboutPanelController.h; sourceTree = "<group>"; };
+		4D93997411943904002C0A96 /* MLAboutPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLAboutPanelController.m; sourceTree = "<group>"; };
+		4D93997511943904002C0A96 /* MLFocusRingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLFocusRingScrollView.h; sourceTree = "<group>"; };
+		4D93997611943904002C0A96 /* MLFocusRingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLFocusRingScrollView.m; sourceTree = "<group>"; };
+		4D93997711943904002C0A96 /* MLIsTextFieldFirstResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLIsTextFieldFirstResponder.h; sourceTree = "<group>"; };
+		4D93997811943904002C0A96 /* MLIsTextFieldFirstResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLIsTextFieldFirstResponder.m; sourceTree = "<group>"; };
+		4D93997911943904002C0A96 /* MLKBPopUpToolbarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLKBPopUpToolbarItem.h; sourceTree = "<group>"; };
+		4D93997A11943904002C0A96 /* MLKBPopUpToolbarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLKBPopUpToolbarItem.m; sourceTree = "<group>"; };
+		4D93997B11943904002C0A96 /* MLLogWindowController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLLogWindowController.h; sourceTree = "<group>"; };
+		4D93997C11943904002C0A96 /* MLLogWindowController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLLogWindowController.m; sourceTree = "<group>"; };
+		4D93997D11943904002C0A96 /* MLMenuSearching.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLMenuSearching.h; sourceTree = "<group>"; };
+		4D93997E11943904002C0A96 /* MLMenuSearching.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLMenuSearching.m; sourceTree = "<group>"; };
+		4D93997F11943904002C0A96 /* MLOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLOpenGLView.h; sourceTree = "<group>"; };
+		4D93998011943904002C0A96 /* MLOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLOpenGLView.m; sourceTree = "<group>"; };
+		4D93998111943904002C0A96 /* MLPreferencesPanelController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPreferencesPanelController.h; sourceTree = "<group>"; };
+		4D93998211943904002C0A96 /* MLPreferencesPanelController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPreferencesPanelController.m; sourceTree = "<group>"; };
+		4D93998311943904002C0A96 /* MLPreferenceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MLPreferenceViewController.h; sourceTree = "<group>"; };
+		4D93998411943904002C0A96 /* MLPreferenceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MLPreferenceViewController.m; sourceTree = "<group>"; };
+		4DD8377D117328C500A90CDA /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		4DD83780117328CF00A90CDA /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/AboutPanel.xib; sourceTree = "<group>"; };
+		4DD83782117328CF00A90CDA /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/PreferencesPanel.xib; sourceTree = "<group>"; };
+		4DD8378C117328FB00A90CDA /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		8DC2EF5A0486A6940098B216 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DC2EF5B0486A6940098B216 /* MLAppKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MLAppKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2F7E79907B2D74100F64583 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DC2EF560486A6940098B216 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF570486A6940098B216 /* Cocoa.framework in Frameworks */,
+				4DD8378D117328FB00A90CDA /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		034768DFFF38A50411DB9C8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DC2EF5B0486A6940098B216 /* MLAppKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0867D691FE84028FC02AAC07 /* Framework */ = {
+			isa = PBXGroup;
+			children = (
+				08FB77AEFE84172EC02AAC07 /* Classes */,
+				32C88DFF0371C24200C91783 /* Other Sources */,
+				089C1665FE841158C02AAC07 /* Resources */,
+				0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */,
+				034768DFFF38A50411DB9C8B /* Products */,
+				4DD8378C117328FB00A90CDA /* OpenGL.framework */,
+			);
+			name = Framework;
+			sourceTree = "<group>";
+		};
+		0867D69AFE84028FC02AAC07 /* External Frameworks and Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */,
+				1058C7B2FEA5585E11CA2CBB /* Other Frameworks */,
+			);
+			name = "External Frameworks and Libraries";
+			sourceTree = "<group>";
+		};
+		089C1665FE841158C02AAC07 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4DD8377F117328CF00A90CDA /* AboutPanel.xib */,
+				4DD83781117328CF00A90CDA /* PreferencesPanel.xib */,
+				8DC2EF5A0486A6940098B216 /* Info.plist */,
+				089C1666FE841158C02AAC07 /* InfoPlist.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		08FB77AEFE84172EC02AAC07 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4D93997311943904002C0A96 /* MLAboutPanelController.h */,
+				4D93997411943904002C0A96 /* MLAboutPanelController.m */,
+				4D93997511943904002C0A96 /* MLFocusRingScrollView.h */,
+				4D93997611943904002C0A96 /* MLFocusRingScrollView.m */,
+				4D93997711943904002C0A96 /* MLIsTextFieldFirstResponder.h */,
+				4D93997811943904002C0A96 /* MLIsTextFieldFirstResponder.m */,
+				4D93997911943904002C0A96 /* MLKBPopUpToolbarItem.h */,
+				4D93997A11943904002C0A96 /* MLKBPopUpToolbarItem.m */,
+				4D93997B11943904002C0A96 /* MLLogWindowController.h */,
+				4D93997C11943904002C0A96 /* MLLogWindowController.m */,
+				4D93997D11943904002C0A96 /* MLMenuSearching.h */,
+				4D93997E11943904002C0A96 /* MLMenuSearching.m */,
+				4D93997F11943904002C0A96 /* MLOpenGLView.h */,
+				4D93998011943904002C0A96 /* MLOpenGLView.m */,
+				4D93998111943904002C0A96 /* MLPreferencesPanelController.h */,
+				4D93998211943904002C0A96 /* MLPreferencesPanelController.m */,
+				4D93998311943904002C0A96 /* MLPreferenceViewController.h */,
+				4D93998411943904002C0A96 /* MLPreferenceViewController.m */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		1058C7B0FEA5585E11CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7B1FEA5585E11CA2CBB /* Cocoa.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7B2FEA5585E11CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0867D6A5FE840307C02AAC07 /* AppKit.framework */,
+				D2F7E79907B2D74100F64583 /* CoreData.framework */,
+				0867D69BFE84028FC02AAC07 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32C88DFF0371C24200C91783 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4DD8377D117328C500A90CDA /* LICENSE.txt */,
+				32DBCF5E0370ADEE00C91783 /* Precompile.h */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8DC2EF500486A6940098B216 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D93998511943904002C0A96 /* MLAboutPanelController.h in Headers */,
+				4D93998711943904002C0A96 /* MLFocusRingScrollView.h in Headers */,
+				4D93998911943904002C0A96 /* MLIsTextFieldFirstResponder.h in Headers */,
+				4D93998B11943904002C0A96 /* MLKBPopUpToolbarItem.h in Headers */,
+				4D93998D11943904002C0A96 /* MLLogWindowController.h in Headers */,
+				4D93998F11943904002C0A96 /* MLMenuSearching.h in Headers */,
+				4D93999111943904002C0A96 /* MLOpenGLView.h in Headers */,
+				4D93999311943904002C0A96 /* MLPreferencesPanelController.h in Headers */,
+				4D93999511943904002C0A96 /* MLPreferenceViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8DC2EF4F0486A6940098B216 /* MLAppKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "MLAppKit" */;
+			buildPhases = (
+				8DC2EF500486A6940098B216 /* Headers */,
+				8DC2EF520486A6940098B216 /* Resources */,
+				8DC2EF540486A6940098B216 /* Sources */,
+				8DC2EF560486A6940098B216 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MLAppKit;
+			productInstallPath = "$(HOME)/Library/Frameworks";
+			productName = Framework;
+			productReference = 8DC2EF5B0486A6940098B216 /* MLAppKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0867D690FE84028FC02AAC07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+			};
+			buildConfigurationList = 1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "MLAppKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 0867D691FE84028FC02AAC07 /* Framework */;
+			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DC2EF4F0486A6940098B216 /* MLAppKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DC2EF520486A6940098B216 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DC2EF530486A6940098B216 /* InfoPlist.strings in Resources */,
+				4DD8377E117328C500A90CDA /* LICENSE.txt in Resources */,
+				4DD83783117328CF00A90CDA /* AboutPanel.xib in Resources */,
+				4DD83784117328CF00A90CDA /* PreferencesPanel.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DC2EF540486A6940098B216 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D93998611943904002C0A96 /* MLAboutPanelController.m in Sources */,
+				4D93998811943904002C0A96 /* MLFocusRingScrollView.m in Sources */,
+				4D93998A11943904002C0A96 /* MLIsTextFieldFirstResponder.m in Sources */,
+				4D93998C11943904002C0A96 /* MLKBPopUpToolbarItem.m in Sources */,
+				4D93998E11943904002C0A96 /* MLLogWindowController.m in Sources */,
+				4D93999011943904002C0A96 /* MLMenuSearching.m in Sources */,
+				4D93999211943904002C0A96 /* MLOpenGLView.m in Sources */,
+				4D93999411943904002C0A96 /* MLPreferencesPanelController.m in Sources */,
+				4D93999611943904002C0A96 /* MLPreferenceViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C1666FE841158C02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1667FE841158C02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4DD8377F117328CF00A90CDA /* AboutPanel.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DD83780117328CF00A90CDA /* English */,
+			);
+			name = AboutPanel.xib;
+			sourceTree = "<group>";
+		};
+		4DD83781117328CF00A90CDA /* PreferencesPanel.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DD83782117328CF00A90CDA /* English */,
+			);
+			name = PreferencesPanel.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1DEB91AE08733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Precompile.h;
+				GCC_STRICT_ALIASING = YES;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				HEADER_SEARCH_PATHS = ../..;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = MLAppKit;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				USER_HEADER_SEARCH_PATHS = ../..;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		1DEB91AF08733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_ENABLE_OBJC_GC = supported;
+				GCC_ENABLE_SSE3_EXTENSIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Precompile.h;
+				GCC_PREPROCESSOR_DEFINITIONS = NDEBUG;
+				GCC_STRICT_ALIASING = YES;
+				GCC_TREAT_IMPLICIT_FUNCTION_DECLARATIONS_AS_ERRORS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS = YES;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ALLOW_INCOMPLETE_PROTOCOL = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = YES;
+				GCC_WARN_HIDDEN_VIRTUAL_FUNCTIONS = YES;
+				GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_SHADOW = YES;
+				GCC_WARN_SIGN_COMPARE = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_LABEL = YES;
+				GCC_WARN_UNUSED_VALUE = YES;
+				HEADER_SEARCH_PATHS = ../..;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = MLAppKit;
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				USER_HEADER_SEARCH_PATHS = ../..;
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		1DEB91B208733DA50010E9CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		1DEB91B308733DA50010E9CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1DEB91AD08733DA50010E9CD /* Build configuration list for PBXNativeTarget "MLAppKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91AE08733DA50010E9CD /* Debug */,
+				1DEB91AF08733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1DEB91B108733DA50010E9CD /* Build configuration list for PBXProject "MLAppKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DEB91B208733DA50010E9CD /* Debug */,
+				1DEB91B308733DA50010E9CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0867D690FE84028FC02AAC07 /* Project object */;
+}
