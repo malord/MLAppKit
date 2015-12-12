@@ -237,10 +237,10 @@
 	// ML: I'm not particularly strict about using 32x32 icons, so I patched this to resize whatever icon you give it to 32x32
 
 	regularImage = [anImage copy];
-	[regularImage setScalesWhenResized:YES];
+	//[regularImage setScalesWhenResized:YES];
 	[regularImage setSize:NSMakeSize(32, 32)];
 	smallImage = [anImage copy];
-	[smallImage setScalesWhenResized:YES];
+	//[smallImage setScalesWhenResized:YES];
 	[smallImage setSize:NSMakeSize(24,24)];
 
 	anImage = ([[self toolbar] sizeMode] == NSToolbarSizeModeSmall) ? smallImage : regularImage;
